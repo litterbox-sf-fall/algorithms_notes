@@ -688,6 +688,7 @@ Unfortunately, ASCII does not cover a large amount of special characters, so we 
 Here is what a UTF table looks like - [http://www.utf8-chartable.de/](http://www.utf8-chartable.de/)
 
 ## Resources:
+* The Importance of Algorithms [http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/the-importance-of-algorithms/](http://help.topcoder.com/data-science/competing-in-algorithm-challenges/algorithm-tutorials/the-importance-of-algorithms/)
 * Overview of selected data structures, operations, and their complexity: [http://bigocheatsheet.com/](http://bigocheatsheet.com/)
 * The classic Algorithms textbook by Cormen, Leierson, Rivest, and Stein: [http://mitpress.mit.edu/books/introduction-algorithms](http://mitpress.mit.edu/books/introduction-algorithms)
 * Good introduction to complexity analysis by Dionysis Zindros [http://discrete.gr/complexity/](http://discrete.gr/complexity/)
