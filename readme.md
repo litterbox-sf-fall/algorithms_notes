@@ -479,14 +479,53 @@ If you want to learn more about this, check out this [video](https://www.youtube
 
 ### Binary 
 
-
-|   	| 2^7  	| 2^6  | 2^5  	|2^4  | 2^3   | 2^2 | 2^1  |2^0 |
-|---	|---	|---	|
-|  Amount 	|  128 	| 64  	| 32 | 16 | 8 | 4 | 2| 1 |
-|  Binary 	|  0 	| 1  	| 0 | 0  	| 0 | 1  | 1| 1  |
-|---	|---	|
-|  Amount 	|  128 	| 64  	| 32 | 16  | 8 | 4  | 2| 1  |
-
+<table>
+<tr>
+  <td>Position</td>
+  <td>2^7</td>
+  <td>2^6</td>
+  <td>2^5</td>
+  <td>2^4</td>
+  <td>2^3</td>
+  <td>2^2</td>
+  <td>2^1</td>
+  <td>2^0</td>
+</tr>
+<tr>
+  <td>Amount</td>
+  <td>128</td>
+  <td>64</td>
+  <td>32</td>
+  <td>16</td>
+  <td>8</td>
+  <td>4</td>
+  <td>2</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>Binary</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>0</td>
+  <td>0</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>Count</td>
+  <td></td>
+  <td>64</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td>4</td>
+  <td>2</td>
+  <td>1</td>
+</tr>
+</table>
+>>>>>>> adding tables
 
 With this table in mind:
 
@@ -496,9 +535,30 @@ With this table in mind:
 
 Here is another example
 
-|  Binary 	|  1 	| 1  	| 0 | 1  	| 0 | 1  	| 1| 1  	|
-|---	|---	|
-|  Amount 	|  128 	| 64  	| 0 | 16  	| 0 | 4  	| 2| 1  	|
+<table>
+<tr>
+  <td>Binary</td>
+  <td>1</td>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  <td>0</td>
+  <td>1</td>
+  <td>1</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>Count</td>
+  <td>128</td>
+  <td>64</td>
+  <td></td>
+  <td>16</td>
+  <td></td>
+  <td>4</td>
+  <td>2</td>
+  <td>1</td>
+</tr>
+</table>
 
 `11010111 = 128 + 64 + 16 + 4 + 2 + 1`
 
@@ -507,18 +567,85 @@ Here is another example
 ### What about addition?
 
 What is `10010101 + 11110010?`
+<table>
+<tr>
+<td>Binary One</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
 
-|  Binary One	|  1 	| 0  	| 0 | 1  	| 0 | 1  	| 0| 1  	|
-|---	|	|
-|  Binary Two	|  1 	| 1  	| 1 | 1  	| 0 | 0  	| 1| 0  	|
-|  Sum	|  2 	| 1  	| 1 | 2  	| 0 | 1  	| 1| 1  	|
+<tr>
+<td>Binary Two</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+
+<tr>
+<td>Sum</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</table>
 
 We now take this sum and multiple the total binary amounts by their respective base 2 amount
 
-|  Sum	|  1 	| 1  	| 1 | 2  	| 0 | 1  	| 1| 1  	|
-|---	|---	|---	|
-|  Amount 	|  128 	| 64  	| 32 | 16  	| 8 | 4  	| 2| 1  	|
-|  Total 	|  128* 2 	| 64 *1  	| 32 *1 | 16* 2  	| 8 * 0| 4 *1   	| 2 * 1| 1 *1  	|
+<table>
+<tr>
+<td>Sum</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+
+<tr>
+  <td>Amount</td>
+  <td>128</td>
+  <td>64</td>
+  <td>32</td>
+  <td>16</td>
+  <td>8</td>
+  <td>4</td>
+  <td>2</td>
+  <td>1</td>
+</tr>
+
+<tr>
+<tr>
+  <td>Total</td>
+  <td>128 * 2</td>
+  <td>64 * 1</td>
+  <td>32 * 1</td>
+  <td>16 * 2</td>
+  <td>8 * 0</td>
+  <td>4 * 1</td>
+  <td>2 * 1</td>
+  <td>1 * 1</td>
+</tr>
+</table>
+
 
 `10010101 + 11110010` =  `128* 2	 + 64 *1 + 	+  32 *1	+  16* 2	+  8 * 0	+  4 *1	+  2 * 1	 + 1 *1` 
 
