@@ -525,7 +525,6 @@ If you want to learn more about this, check out this [video](https://www.youtube
   <td>1</td>
 </tr>
 </table>
->>>>>>> adding tables
 
 With this table in mind:
 
