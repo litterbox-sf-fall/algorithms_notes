@@ -480,13 +480,12 @@ If you want to learn more about this, check out this [video](https://www.youtube
 ### Binary 
 
 
-|   	| 2^7  	| 2^6  | 2^5  	|2^4  | 2^3   | 2^2  	| 2^1  	|2^0 |
+|   	| 2^7  	| 2^6  | 2^5  	|2^4  | 2^3   | 2^2 | 2^1  |2^0 |
 |---	|---	|---	|
-|  Amount 	|  128 	| 64  	| 32 | 16  	| 8 | 4  	| 2| 1  	|
-
-|  Binary 	|  0 	| 1  	| 0 | 0  	| 0 | 1  	| 1| 1  	|
+|  Amount 	|  128 	| 64  	| 32 | 16 | 8 | 4 | 2| 1 |
+|  Binary 	|  0 	| 1  	| 0 | 0  	| 0 | 1  | 1| 1  |
 |---	|---	|
-|  Amount 	|  128 	| 64  	| 32 | 16  	| 8 | 4  	| 2| 1  	|
+|  Amount 	|  128 	| 64  	| 32 | 16  | 8 | 4  | 2| 1  |
 
 
 With this table in mind:
